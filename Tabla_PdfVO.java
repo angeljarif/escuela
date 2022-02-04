@@ -26,6 +26,7 @@ public class Tabla_PdfVO {
         dt.addColumn("codigopdf");
         dt.addColumn("nombrepdf");
         dt.addColumn("archivo");
+        dt.addColumn("autor");
 
         ImageIcon icono = null;
         if (get_Image("/Imagen/32pdf.png") != null) {
